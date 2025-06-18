@@ -80,7 +80,7 @@ def extraer_comentarios(driver, wait, scrolls=10, pause=2):
 
 try:
     # Abre la URL con los resultados de búsqueda en TikTok
-    driver.get("https://www.tiktok.com/search?q=petro&t=1748979881914")
+    driver.get("https://www.tiktok.com/search?q=acaBusqueda&t=1748979881914")
 
     # Espera y clickea en el primer resultado de la búsqueda
     first_result = wait.until(
